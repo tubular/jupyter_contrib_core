@@ -23,7 +23,7 @@ Common utilities for jupyter-contrib projects. Includes:
 -   common application components and cli scripts
 -   utility classes and functions for use in tests
 """,
-        version='0.4.0',
+        version='0.4.0.dev0',
         author='jcb91, jupyter-contrib developers',
         author_email='joshuacookebarnes@gmail.com',
         url=('https://github.com/'
@@ -63,9 +63,6 @@ Common utilities for jupyter-contrib projects. Includes:
                 'jupyter-contrib = jupyter_contrib_core.application:main',  # noqa
             ],
         },
-        scripts=[os.path.join('scripts', p) for p in [
-            'jupyter-contrib',
-        ]],
         classifiers=[
             'Intended Audience :: End Users/Desktop',
             'Intended Audience :: Science/Research',
